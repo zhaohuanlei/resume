@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:11:12 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-18 19:38:41
+ * @Last Modified time: 2017-05-19 18:27:15
  */
 "use strict";
 
@@ -17,7 +17,7 @@ module.exports = {
     output: {
         path: __dirname + "/dist",
         filename: "[name].bundle.js",
-        publicPath: "/assets/"
+        publicPath: "/dist/"
     },
     devServer: {
         contentBase: __dirname

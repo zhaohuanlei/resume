@@ -4,7 +4,8 @@
   "description": "赵欢磊的个人简历",
   "main": "resume.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline"
   },
   "author": "zhaohuanlei",
   "license": "ISC",
