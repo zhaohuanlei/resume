@@ -6876,22 +6876,5 @@ var _vue2 = _interopRequireDefault(_vue);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/*
- * @Author: zhaohuanlei
- * @Date: 2017-05-18 18:30:11
- * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-19 18:49:27
- */
-
-function sum() {
-  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
-
-  return a + b;
-}
-
-var n = sum(3);
-console.log(n);
-
 /***/ })
 /******/ ]);
