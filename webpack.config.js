@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:11:12 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-19 18:55:01
+ * @Last Modified time: 2017-05-22 23:47:19
  */
 "use strict";
 
@@ -46,6 +46,10 @@ module.exports = {
                     loader: "babel-loader",
                     options: { presets: ["env"] }
                 }]
+            },
+            {
+                test: /\.vue$/,
+                use: "vue-loader"
             }
         ]
     },
