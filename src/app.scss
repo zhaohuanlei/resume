@@ -1,8 +1,12 @@
 /*
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:50:06 
- * @Last Modified by:   zhaohuanlei 
- * @Last Modified time: 2017-05-18 18:50:06 
+ * @Last Modified by: zhaohuanlei
+ * @Last Modified time: 2017-05-22 19:52:53
  */
 @import "~normalize.css";
-h2 {font-size:16px;}
+html,body,.container,.section {height:100%;}
+
+.section {position:relative;background-position:center;background-size:cover;}
+.basic-section {background-image:url(/img/2bg.jpg);}
+.avatar {width:150px;height:150px;position:absolute;top:50%;left:50%;z-index:2;margin:-75px;overflow:hidden;background:url(/img/avatar.jpg) center;background-size:cover;border-radius:100%;border:5px solid rgba(0,0,0,.2);}
