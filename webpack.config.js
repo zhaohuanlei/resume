@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:11:12 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-22 23:47:19
+ * @Last Modified time: 2017-05-23 17:02:33
  */
 "use strict";
 
@@ -24,7 +24,8 @@ module.exports = {
         contentBase: __dirname
     },
     resolve: {
-        modules: [path.resolve(__dirname, "./src"), "node_modules"]
+        modules: [path.resolve(__dirname, "./src"), "node_modules"],
+        //extensions:[".js", ".css", ".vue"]
     },
     module: {
         rules: [
