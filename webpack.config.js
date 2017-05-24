@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:11:12 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-24 11:46:22
+ * @Last Modified time: 2017-05-24 15:06:12
  */
 "use strict";
 
@@ -50,7 +50,7 @@ module.exports = {
             },
             {
                 test: /\.(jpg|png)/,
-                use: "url-loader?limit=8192&name=[path][name].[ext]"
+                use: "url-loader?limit=8192&name=[name].[ext]&publicPath= &outputPath=../img/"
             },
             {
                 test: /\.html$/,
