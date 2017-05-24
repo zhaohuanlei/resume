@@ -58,15 +58,7 @@ module.exports = {
             },
             {
                 test: /\.vue$/,
-                loader: "vue-loader",
-                options: {
-                    loader: {
-                        css: ExtractTextPlugin.extract({
-                            use: "css-loader",
-                            fallback: 'vue-style-loader'
-                        })
-                    }
-                }
+                use: "vue-loader"
             }
         ]
     },

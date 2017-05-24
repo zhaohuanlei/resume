@@ -1,9 +1,8 @@
-
 <style>
-.swiper-container {position:absolute;top:0;right:0;bottom:0;left:0;}
-img {max-width:100%;}
-.swiper-slide {position:relative;background-position:center;background-size:cover;}
-.skill-section {background-image:url(../img/3bg.jpg);}
+  .swiper-container {position:absolute;top:0;right:0;bottom:0;left:0;}
+  .swiper-slide {position:relative;background-position:center;background-size:cover;}
+  .swiper-pagination .swiper-pagination-bullet {width:6px;height:6px;margin:6px auto;background-color:#fff;opacity:.8;}
+  .swiper-pagination-bullet-active {width:12px;height:12px;}
 </style>
 <template>
   <swiper :options="swiperOption">
@@ -22,23 +21,23 @@ img {max-width:100%;}
 </template>
 
 <script>
-import tool from "./header.vue";
-import basic from "./basic.vue";
-export default {
-  data() {
-    return {
-      swiperOption: {
-        pagination: ".swiper-pagination",
-        direction: "vertical",
-        slidesPerView: 1,
-        paginationClickable: true,
-        mousewheelControl: true
-      }
+    import tool from "./tool.vue";
+    import basic from "./basic.vue";
+    export default {
+        data() {
+            return {
+                swiperOption: {
+                    pagination: ".swiper-pagination",
+                    direction: "vertical",
+                    slidesPerView: 1,
+                    paginationClickable: true,
+                    mousewheelControl: true
+                }
+            }
+        },
+        components: {
+            basic: basic,
+            tool: tool,
+        }
     }
-  },
-  components: {
-    basic: basic,
-    tool: tool,
-  }
-}
 </script>
