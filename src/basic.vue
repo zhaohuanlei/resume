@@ -5,7 +5,6 @@
   .profile .avatar {width:150px;height:150px;position:relative;margin:0 auto 20px auto;background-image:url(/img/avatar.jpg);background-size:contain;border:2px solid #fff;border-radius:100%;}
 </style>
 
-
 <template>
   <div class="profile">
     <p class="avatar"></p>

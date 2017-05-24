@@ -4,6 +4,7 @@
   .swiper-pagination .swiper-pagination-bullet {width:6px;height:6px;margin:6px auto;background-color:#fff;opacity:.8;}
   .swiper-pagination-bullet-active {width:12px;height:12px;}
 </style>
+
 <template>
   <swiper :options="swiperOption">
     <swiper-slide class="basic-section">
