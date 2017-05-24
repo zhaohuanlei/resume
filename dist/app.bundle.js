@@ -5559,8 +5559,8 @@ if (true) {
  */
 
 var Swiper = __webpack_require__(3);
-var SwiperComponent = __webpack_require__(23);
-var SlideComponent = __webpack_require__(22);
+var SwiperComponent = __webpack_require__(22);
+var SlideComponent = __webpack_require__(21);
 if (typeof window !== 'undefined') {
   window.Swiper = Swiper;
 }
@@ -12154,13 +12154,13 @@ exports.default = Vue$3;
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(31)
+  __webpack_require__(30)
 }
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(10),
   /* template */
-  __webpack_require__(27),
+  __webpack_require__(26),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -12328,9 +12328,9 @@ if (browser) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_vue__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_vue__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__header_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basic_vue__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basic_vue__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basic_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__basic_vue__);
 //
 //
@@ -12698,7 +12698,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "\n.basic-section {background-image:url(" + __webpack_require__(21) + ");\n}\n.profile {width:200px;position:absolute;top:50%;left:50%;z-index:2;margin:-100px 0 0 -100px;text-align:center;color:#666;\n}\n.avatar {width:150px;height:150px;margin:0 auto;overflow:hidden;border-radius:100%;border:5px solid rgba(255,255,255,1);background-image:url(" + __webpack_require__(20) + ");background-size:contain;\n}\r\n", ""]);
+exports.push([module.i, "\n.basic-section {background-image:url(/img/bg1.jpg);\n}\n.profile {width:200px;position:absolute;top:50%;left:50%;z-index:2;margin:-100px 0 0 -100px;text-align:center;color:#666;\n}\n.avatar {width:150px;height:150px;margin:0 auto;overflow:hidden;border-radius:100%;border:5px solid rgba(255,255,255,1);background-image:url(" + __webpack_require__(20) + ");background-size:contain;\n}\r\n", ""]);
 
 // exports
 
@@ -12737,12 +12737,6 @@ module.exports = " ../img/avatar.jpg";
 
 /***/ }),
 /* 21 */
-/***/ (function(module, exports) {
-
-module.exports = " ../img/bg1.jpg";
-
-/***/ }),
-/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12750,7 +12744,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(8),
   /* template */
-  __webpack_require__(29),
+  __webpack_require__(28),
   /* styles */
   null,
   /* scopeId */
@@ -12782,7 +12776,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12790,7 +12784,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(9),
   /* template */
-  __webpack_require__(26),
+  __webpack_require__(25),
   /* styles */
   null,
   /* scopeId */
@@ -12822,19 +12816,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(32)
+  __webpack_require__(31)
 }
 var Component = __webpack_require__(0)(
   /* script */
   null,
   /* template */
-  __webpack_require__(28),
+  __webpack_require__(27),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -12866,19 +12860,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(33)
+  __webpack_require__(32)
 }
 var Component = __webpack_require__(0)(
   /* script */
   null,
   /* template */
-  __webpack_require__(30),
+  __webpack_require__(29),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -12910,7 +12904,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -12929,7 +12923,7 @@ if (false) {
 }
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -12961,7 +12955,7 @@ if (false) {
 }
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -12984,7 +12978,7 @@ if (false) {
 }
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13001,7 +12995,7 @@ if (false) {
 }
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13024,7 +13018,7 @@ if (false) {
 }
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -13050,7 +13044,7 @@ if(false) {
 }
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -13076,7 +13070,7 @@ if(false) {
 }
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
