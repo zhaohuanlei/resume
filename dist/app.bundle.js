@@ -11853,7 +11853,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(8),
   /* template */
-  __webpack_require__(19),
+  __webpack_require__(17),
   /* styles */
   null,
   /* scopeId */
@@ -11861,7 +11861,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zhaohuanlei/Documents/dev/resume/src/app.vue"
+Component.options.__file = "E:\\material\\resume\\src\\app.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] app.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11872,9 +11872,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5ef48958", Component.options)
+    hotAPI.createRecord("data-v-4f53e2bc", Component.options)
   } else {
-    hotAPI.reload("data-v-5ef48958", Component.options)
+    hotAPI.reload("data-v-4f53e2bc", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -12334,7 +12334,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(6),
   /* template */
-  __webpack_require__(16),
+  __webpack_require__(19),
   /* styles */
   null,
   /* scopeId */
@@ -12342,7 +12342,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zhaohuanlei/Documents/dev/resume/node_modules/vue-awesome-swiper/slide.vue"
+Component.options.__file = "E:\\material\\resume\\node_modules\\vue-awesome-swiper\\slide.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] slide.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -12353,9 +12353,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-006f2fda", Component.options)
+    hotAPI.createRecord("data-v-e623de60", Component.options)
   } else {
-    hotAPI.reload("data-v-006f2fda", Component.options)
+    hotAPI.reload("data-v-e623de60", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -12374,7 +12374,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(7),
   /* template */
-  __webpack_require__(18),
+  __webpack_require__(16),
   /* styles */
   null,
   /* scopeId */
@@ -12382,7 +12382,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zhaohuanlei/Documents/dev/resume/node_modules/vue-awesome-swiper/swiper.vue"
+Component.options.__file = "E:\\material\\resume\\node_modules\\vue-awesome-swiper\\swiper.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] swiper.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -12393,9 +12393,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2a603dc2", Component.options)
+    hotAPI.createRecord("data-v-23a5c22e", Component.options)
   } else {
-    hotAPI.reload("data-v-2a603dc2", Component.options)
+    hotAPI.reload("data-v-23a5c22e", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -12414,7 +12414,7 @@ var Component = __webpack_require__(0)(
   /* script */
   null,
   /* template */
-  __webpack_require__(17),
+  __webpack_require__(18),
   /* styles */
   null,
   /* scopeId */
@@ -12422,7 +12422,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zhaohuanlei/Documents/dev/resume/src/basic.vue"
+Component.options.__file = "E:\\material\\resume\\src\\basic.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] basic.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -12433,9 +12433,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-17816db6", Component.options)
+    hotAPI.createRecord("data-v-c956b822", Component.options)
   } else {
-    hotAPI.reload("data-v-17816db6", Component.options)
+    hotAPI.reload("data-v-c956b822", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -12451,38 +12451,6 @@ module.exports = Component.exports
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    class: _vm.slideClass
-  }, [_vm._t("default")], 2)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-006f2fda", module.exports)
-  }
-}
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('p', [_vm._v("基本资料")])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-17816db6", module.exports)
-  }
-}
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
     staticClass: "swiper-container"
   }, [_vm._t("parallax-bg"), _vm._v(" "), _c('div', {
     class: _vm.defaultSwiperClasses.wrapperClass
@@ -12492,12 +12460,12 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-2a603dc2", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-23a5c22e", module.exports)
   }
 }
 
 /***/ }),
-/* 19 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -12524,7 +12492,39 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5ef48958", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-4f53e2bc", module.exports)
+  }
+}
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('p', [_vm._v("基本资料")])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-c956b822", module.exports)
+  }
+}
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    class: _vm.slideClass
+  }, [_vm._t("default")], 2)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-e623de60", module.exports)
   }
 }
 

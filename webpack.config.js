@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:11:12 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-23 17:02:33
+ * @Last Modified time: 2017-05-24 11:46:22
  */
 "use strict";
 
@@ -47,6 +47,14 @@ module.exports = {
                     loader: "babel-loader",
                     options: { presets: ["env"] }
                 }]
+            },
+            {
+                test: /\.(jpg|png)/,
+                use: "url-loader?limit=8192&name=[path][name].[ext]"
+            },
+            {
+                test: /\.html$/,
+                use: "html-withimg-loader"
             },
             {
                 test: /\.vue$/,

@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:50:06 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-24 00:17:44
+ * @Last Modified time: 2017-05-24 11:47:25
  */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -407,7 +407,7 @@ img {
   background-size: cover; }
 
 .basic-section {
-  background-image: url(/img/2bg.jpg); }
+  background-image: url(/dist/img/2bg.jpg); }
 
 .avatar {
   width: 150px;
@@ -420,7 +420,7 @@ img {
   overflow: hidden;
   border-radius: 100%;
   border: 5px solid white;
-  background-image: url(/img/avatar.jpg);
+  background-image: url(/dist/img/avatar.jpg);
   background-size: contain; }
 /**
  * Swiper 3.4.2
