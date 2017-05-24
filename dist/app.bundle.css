@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:50:06 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-24 15:35:03
+ * @Last Modified time: 2017-05-24 16:31:09
  */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -395,8 +395,18 @@ template {
 [hidden] {
   display: none; }
 
-html, body, .swiper-container {
-  height: 100%; }
+.wrap {
+  max-width: 1160px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.swiper-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 img {
   max-width: 100%; }
@@ -405,23 +415,6 @@ img {
   position: relative;
   background-position: center;
   background-size: cover; }
-
-.basic-section {
-  background-image: url( ../img/1bg.jpg); }
-
-.avatar {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  margin: -75px;
-  overflow: hidden;
-  border-radius: 100%;
-  border: 5px solid white;
-  background-image: url( ../img/avatar.jpg);
-  background-size: contain; }
 /**
  * Swiper 3.4.2
  * Most modern mobile touch slider and framework with hardware accelerated transitions
