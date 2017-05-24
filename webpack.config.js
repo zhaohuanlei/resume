@@ -2,7 +2,7 @@
  * @Author: zhaohuanlei 
  * @Date: 2017-05-18 18:11:12 
  * @Last Modified by: zhaohuanlei
- * @Last Modified time: 2017-05-24 18:30:30
+ * @Last Modified time: 2017-05-25 00:54:11
  */
 "use strict";
 
@@ -58,7 +58,10 @@ module.exports = {
             },
             {
                 test: /\.vue$/,
-                use: "vue-loader"
+                loader: "vue-loader",
+                options: {
+                    extractCSS: true
+                }
             }
         ]
     },

@@ -978,3 +978,32 @@ button.swiper-pagination-bullet {
     transform: rotate(360deg);
   }
 }
+
+.swiper-container {position:absolute;top:0;right:0;bottom:0;left:0;
+}
+.swiper-slide {position:relative;background-position:center;background-size:cover;
+}
+.swiper-pagination .swiper-pagination-bullet {width:6px;height:6px;margin:6px auto;background-color:#fff;opacity:.8;
+}
+.swiper-pagination-bullet-active {width:12px;height:12px;
+}
+
+.basic-section {background-image:url(/img/bg1.jpg);
+}
+.profile {width:200px;position:absolute;top:50%;left:50%;z-index:2;margin:-100px 0 0 -100px;text-align:center;color:#666;
+}
+.profile p {margin:5px auto;
+}
+.profile .avatar {width:150px;height:150px;position:relative;margin:0 auto 20px auto;background-image:url(/img/avatar.jpg);background-size:contain;border:2px solid #fff;border-radius:100%;
+}
+
+.tool {height:50px;line-height:50px;position:fixed;top:0;left:0;right:0;background-color:rgba(0,0,0,.3);color:#ccc;
+}
+.logo {float:left;margin:0;font-size:20px;font-weight:normal;
+}
+.nav {float:right;margin:0;
+}
+.nav a {height:30px;padding:0 15px;display:inline-block;vertical-align:middle;line-height:30px;font-size:14px;text-decoration:none;color:#fff;
+}
+.nav .current {background-color:rgba(0,0,0,.7);border-radius:30px;
+}

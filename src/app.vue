@@ -17,12 +17,10 @@
     <swiper-slide class="hobby-section">兴趣爱好</swiper-slide>
     <swiper-slide class="contact-section">联系方式</swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
-    <tool></tool>
   </swiper>
 </template>
 
 <script>
-    import tool from "./tool.vue";
     import basic from "./basic.vue";
     export default {
         data() {
@@ -37,8 +35,7 @@
             }
         },
         components: {
-            basic: basic,
-            tool: tool,
+            basic,
         }
     }
 </script>
