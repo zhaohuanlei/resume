@@ -1,8 +1,8 @@
 <style>
   .swiper-container {position:absolute;top:0;right:0;bottom:0;left:0;}
   .swiper-slide {position:relative;background-position:center;background-size:cover;}
-  .swiper-pagination .swiper-pagination-bullet {width:6px;height:6px;margin:6px auto;background-color:#fff;opacity:.8;}
-  .swiper-pagination-bullet-active {width:12px;height:12px;}
+  .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {width:4px;height:4px;margin:10px auto;background-color:#fff;opacity:1;}
+  .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {width:12px;height:12px;}
 </style>
 
 <template>

@@ -1,0 +1,12 @@
+// 将设置放入此文件中以覆盖默认值和用户设置。
+{
+    // 控制是否显示 minimap
+    "editor.minimap.enabled": true,
+    //自动换行
+    "editor.wordWrap": "on",
+    //vue emmet
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    }
+}

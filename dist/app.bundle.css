@@ -988,13 +988,13 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active {width:12px;height:12px;
 }
 
-.basic-section {background-image:url(/img/bg1.jpg);
+.basic-section {background-image:url( ../img/bg1.jpg);
 }
 .profile {width:200px;position:absolute;top:50%;left:50%;z-index:2;margin:-100px 0 0 -100px;text-align:center;color:#666;
 }
 .profile p {margin:5px auto;
 }
-.profile .avatar {width:150px;height:150px;position:relative;margin:0 auto 20px auto;background-image:url(/img/avatar.jpg);background-size:contain;border:2px solid #fff;border-radius:100%;
+.profile .avatar {width:150px;height:150px;position:relative;margin:0 auto 20px auto;background-image:url( ../img/avatar.jpg);background-size:contain;border:2px solid #fff;border-radius:100%;
 }
 
 .tool {height:50px;line-height:50px;position:fixed;top:0;left:0;right:0;background-color:rgba(0,0,0,.3);color:#ccc;
