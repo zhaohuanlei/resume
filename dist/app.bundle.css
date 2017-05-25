@@ -3362,11 +3362,29 @@ button.swiper-pagination-bullet {
 }
 .logo {float:left;margin:0;font-size:20px;font-weight:normal;
 }
-.nav {float:right;margin:0;
+.nav-box {float:right;
 }
-.nav a {height:30px;padding:0 15px;display:inline-block;vertical-align:middle;line-height:30px;font-size:14px;text-decoration:none;color:#fff;
+.nav-list {margin:0;
 }
-.nav .current {background-color:rgba(0,0,0,.7);border-radius:30px;
+.nav-item {height:30px;padding:0 15px;display:inline-block;vertical-align:middle;line-height:30px;font-size:14px;text-decoration:none;color:#eee;
+}
+.nav-item.current {background-color:rgba(0,0,0,.7);border-radius:30px;
+}
+.nav-toggle-btn {width:25px;height:5px;position:relative;float:right;margin:19px 0;display:none;box-shadow:0 2px 0 #eee, 0 -2px #eee;
+}
+.nav-toggle-btn:before {width:100%;height:2px;position:absolute;bottom:-9px;background-color:#eee;content:"";
+}
+@media screen and (max-width:480px) {
+.nav-toggle-btn {display:block;
+}
+.nav-list {width:100%;position:absolute;top:100%;left:0;padding:10px 0;background-color:rgba(0,0,0,.3);border-top:1px solid rgba(255,255,255,.1);display:none;
+}
+.nav-item {display:block;
+}
+.nav-item.current {background:none;
+}
+.nav-box:hover .nav-list {display:block;
+}
 }
 
 .profile {width:200px;position:absolute;top:50%;left:50%;z-index:2;margin:-100px 0 0 -100px;text-align:center;color:#444;

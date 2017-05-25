@@ -12898,19 +12898,25 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "wrap"
   }, [_c('h1', {
     staticClass: "logo"
-  }, [_vm._v("欢磊")]), _vm._v(" "), _c('p', {
-    staticClass: "nav"
+  }, [_vm._v("欢磊")]), _vm._v(" "), _c('div', {
+    staticClass: "nav-box"
   }, [_c('a', {
-    staticClass: "current"
+    staticClass: "nav-toggle-btn"
+  }), _vm._v(" "), _c('p', {
+    staticClass: "nav-list"
+  }, [_c('a', {
+    staticClass: "nav-item current"
   }, [_vm._v("个人简历")]), _vm._v(" "), _c('a', {
+    staticClass: "nav-item",
     attrs: {
       "href": "http://www.cnblogs.com/huanlei/"
     }
   }, [_vm._v("技术博客")]), _vm._v(" "), _c('a', {
+    staticClass: "nav-item",
     attrs: {
       "href": ""
     }
-  }, [_vm._v("联系方式")])])])])
+  }, [_vm._v("联系方式")])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
