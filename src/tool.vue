@@ -1,7 +1,7 @@
 <style>
-    .tool {height:50px;line-height:50px;position:fixed;top:0;left:0;right:0;z-index:10;background-color:rgba(0,0,0,.5);color:#ccc;}
-    .logo {float:left;margin:0;font-size:20px;font-weight:normal;}
-    .nav-box {float:right;}
+    .tool {height:50px;line-height:50px;position:fixed;top:0;left:0;right:0;z-index:10;background-color:rgba(0,0,0,.3);color:#ccc;}
+    .logo {width:30px;height:30px;float:left;margin:10px 0;white-space:nowrap;overflow:hidden;text-indent:100%;background:url(../img/logo.png) no-repeat;background-size:contain;}
+    .nav-box {height:100%;float:right;}
     .nav-list {margin:0;}
     .nav-item {height:30px;padding:0 15px;display:inline-block;vertical-align:middle;line-height:30px;font-size:14px;text-decoration:none;color:#eee;}
     .nav-item.current {background-color:rgba(0,0,0,.7);border-radius:30px;}
@@ -19,7 +19,7 @@
 <template>
     <div class="tool">
         <div class="wrap">
-            <h1 class="logo">欢磊</h1>
+            <h1 class="logo">赵欢磊</h1>
             <div class="nav-box">
                 <a class="nav-toggle-btn"></a>
                 <p class="nav-list">
