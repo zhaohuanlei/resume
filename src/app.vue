@@ -1,8 +1,10 @@
 <style>
   .swiper-container {position:absolute;top:0;right:0;bottom:0;left:0;}
   .swiper-slide {position:relative;background-position:center;background-size:cover;}
-  .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {width:4px;height:4px;margin:10px auto;background-color:#fff;opacity:1;}
-  .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {width:12px;height:12px;}
+  .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {width:20px;height:20px;margin:0 auto;text-align:center;line-height:20px;background:none;opacity:1;}
+  .swiper-pagination-bullet:after {width:4px;height:4px;margin:0 auto;display:inline-block;vertical-align:middle;content:"";background-color:#fff;transition:all .2s;border-radius:100%;}
+  .swiper-pagination-bullet:hover:after {width:8px;height:8px;}
+  .swiper-pagination-bullet-active:after {width:12px;height:12px;}
   .basic-section {background-image:url(../img/basic-bg.jpg);}
   .skill-section {background-image:url(../img/skill-bg.jpg);}
 </style>
