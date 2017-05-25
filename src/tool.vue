@@ -1,5 +1,5 @@
 <style>
-    .tool {height:50px;line-height:50px;position:fixed;top:0;left:0;right:0;z-index:10;background-color:rgba(0,0,0,.3);color:#ccc;}
+    .tool {height:50px;line-height:50px;position:fixed;top:0;left:0;right:0;z-index:10;background-color:rgba(0,0,0,.5);color:#ccc;}
     .logo {float:left;margin:0;font-size:20px;font-weight:normal;}
     .nav-box {float:right;}
     .nav-list {margin:0;}
