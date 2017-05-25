@@ -8,22 +8,37 @@
 </style>
 
 <template>
-    <swiper :options="swiperOption">
-        <swiper-slide class="basic-section">
-            <basic></basic>
-        </swiper-slide>
-        <swiper-slide class="skill-section">
-            专业技能
-        </swiper-slide>
-        <swiper-slide class="experience-section">工作经验</swiper-slide>
-        <swiper-slide class="hobby-section">兴趣爱好</swiper-slide>
-        <swiper-slide class="contact-section">联系方式</swiper-slide>
-        <div class="swiper-pagination" slot="pagination"></div>
-    </swiper>
+    <div class="main">
+        <tool></tool>
+        <swiper :options="swiperOption">
+            <swiper-slide class="basic-section">
+                <basic></basic>
+            </swiper-slide>
+            <swiper-slide class="skill-section">
+                <skill></skill>
+            </swiper-slide>
+            <swiper-slide class="experience-section">
+                <experience></experience>
+            </swiper-slide>
+            <swiper-slide class="hobby-section">
+                <hobby></hobby>
+            </swiper-slide>
+            <swiper-slide class="contact-section">
+                <contact></contact>
+            </swiper-slide>
+            <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
+    </div>
 </template>
 
 <script>
+import {swiperAnimateCache, swiperAnimate} from "./swiper.animate.js";
+import tool from "./tool.vue";
 import basic from "./basic.vue";
+import skill from "./skill.vue";
+import experience from "./experience.vue";
+import hobby from "./hobby.vue";
+import contact from "./contact.vue";
 export default {
     data() {
         return {
@@ -33,12 +48,24 @@ export default {
                 slidesPerView: 1,
                 speed: 600,
                 paginationClickable: true,
-                mousewheelControl: true
+                mousewheelControl: true,
+                onInit: function (swiper) {
+                    swiperAnimateCache(swiper);
+                    swiperAnimate(swiper);
+                },
+                onSlideChangeEnd: function (swiper) {
+                    swiperAnimate(swiper);
+                }
             }
         }
     },
     components: {
+        tool,
         basic,
+        skill,
+        experience,
+        hobby,
+        contact
     }
 }
 </script>

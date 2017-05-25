@@ -5,9 +5,14 @@
 </style>
 
 <template>
-  <div class="profile">
-    <p class="avatar"></p>
-    <p class="name">赵欢磊</p>
-    <p>前端工程师</p>
+  <div class="wrap">
+    <div class="profile">
+      <p class="avatar ani" data-animate-effect="fadeInDown" data-animate-duration="0.5s" data-animate-delay="0s"></p>
+      <div class="ani" data-animate-effect="fadeInUp" data-animate-duration="0.5s" data-animate-delay="0s">
+        <p class="name">赵欢磊</p>
+        <p class="career">前端工程师</p>
+      </div>
+      
+    </div>
   </div>
 </template>

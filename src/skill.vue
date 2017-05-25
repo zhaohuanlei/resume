@@ -1,5 +1,4 @@
 <style lang="sass">
-.
 </style>
 
 <template>
