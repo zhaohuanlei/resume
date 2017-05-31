@@ -6,29 +6,30 @@
   .swiper-pagination-bullet:hover:after {width:8px;height:8px;}
   .swiper-pagination-bullet-active:after {width:12px;height:12px;}
   .basic-section {background-image:url(../img/basic-bg.jpg);}
-  .skill-section {background-image:url(../img/skill-bg.jpg);}
+  .skill-section {height:200px;background-image:url(../img/skill-bg.jpg);}
 </style>
 
 <template>
     <div class="main">
         <tool></tool>
         <swiper :options="swiperOption">
-            <swiper-slide class="basic-section">
+            <swiper-slide class="basic-section" data-hash="basic">
                 <basic></basic>
             </swiper-slide>
-            <swiper-slide class="skill-section">
+            <swiper-slide class="skill-section" data-hash="skill">
                 <skill></skill>
             </swiper-slide>
-            <swiper-slide class="experience-section">
+            <swiper-slide class="experience-section" data-hash="experience">
                 <experience></experience>
             </swiper-slide>
-            <swiper-slide class="hobby-section">
+            <swiper-slide class="hobby-section" data-hash="hobby">
                 <hobby></hobby>
             </swiper-slide>
-            <swiper-slide class="contact-section">
+            <swiper-slide class="contact-section" data-hash="contact">
                 <contact></contact>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
+            <div class="swiper-scrollbar"></div>
         </swiper>
     </div>
 </template>
@@ -47,11 +48,15 @@ export default {
             swiperOption: {
                 pagination: ".swiper-pagination",
                 direction: "vertical",
+                scrollbar: '.swiper-scrollbar',
+                scrollbarHide: false,
                 slidesPerView: 1,
                 speed: 600,
                 paginationClickable: true,
                 mousewheelControl: true,
+                hashnav: true,
                 onInit: function (swiper) {
+                    console.log(swiper);
                     swiperAnimateCache(swiper);
                     swiperAnimate(swiper);
                 },
