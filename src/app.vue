@@ -26,7 +26,7 @@
                 <hobby></hobby>
             </swiper-slide>
             <swiper-slide class="contact-section" data-hash="contact">
-                <contact></contact>
+                <contact>联系方式</contact>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
             <div class="swiper-scrollbar"></div>

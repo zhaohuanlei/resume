@@ -12873,7 +12873,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "data-hash": "contact"
     }
-  }, [_c('contact')], 1), _vm._v(" "), _c('div', {
+  }, [_c('contact', [_vm._v("联系方式")])], 1), _vm._v(" "), _c('div', {
     staticClass: "swiper-pagination",
     slot: "pagination"
   }), _vm._v(" "), _c('div', {
@@ -12979,7 +12979,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "name"
   }, [_vm._v("赵欢磊")]), _vm._v(" "), _c('p', {
     staticClass: "career"
-  }, [_vm._v("前端工程师")]), _vm._v(" "), _c('p', [_c('a', {
+  }, [_vm._v("前端开发工程师")]), _vm._v(" "), _c('p', [_c('a', {
     staticClass: "download-btn",
     attrs: {
       "href": "/doc/赵欢磊-前端开发工程师-8年.pdf",

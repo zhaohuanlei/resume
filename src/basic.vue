@@ -13,7 +13,7 @@
       <p class="avatar ani" data-animate-effect="fadeInDown" data-animate-duration="0.5s" data-animate-delay="0s"></p>
       <div class="ani" data-animate-effect="fadeInUp" data-animate-duration="0.5s" data-animate-delay="0s">
         <p class="name">赵欢磊</p>
-        <p class="career">前端工程师</p>
+        <p class="career">前端开发工程师</p>
         <p><a href="/doc/赵欢磊-前端开发工程师-8年.pdf" class="download-btn" download>下载简历</a></p>
       </div>
       
