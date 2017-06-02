@@ -12982,7 +12982,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("前端开发工程师")]), _vm._v(" "), _c('p', {}, [_c('a', {
     staticClass: "download-btn",
     attrs: {
-      "href": "/doc/赵欢磊-前端开发工程师-8年.pdf",
+      "href": "./doc/赵欢磊-前端开发工程师-8年.pdf",
       "download": ""
     }
   }, [_vm._v("下载简历")])])])])])
