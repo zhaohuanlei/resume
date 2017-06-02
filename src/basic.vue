@@ -4,6 +4,7 @@
   .profile .avatar {width:150px;height:150px;position:relative;margin:0 auto 20px auto;background-image:url(../img/avatar.jpg);background-size:contain;border:2px solid #ddd;border-radius:100%;overflow:hidden;}
   .avatar:after {width:100%;height:100%;position:absolute;top:0;left:0;content:"";background-color:#000;opacity:0.2;transition:all .2s;}
   .avatar:hover:after {opacity:0;}
+  .download-btn {margin:10px 0;padding:0 30px;display:inline-block;line-height:30px;border:2px solid #ddd;color:#eee;font-size:14px;}
 </style>
 
 <template>
@@ -13,7 +14,7 @@
       <div class="ani" data-animate-effect="fadeInUp" data-animate-duration="0.5s" data-animate-delay="0s">
         <p class="name">赵欢磊</p>
         <p class="career">前端工程师</p>
-        <p><a href="/赵欢磊-前端开发工程师.pdf" download>下载简历</a></p>
+        <p><a href="/doc/赵欢磊-前端开发工程师-8年.pdf" class="download-btn" download>下载简历</a></p>
       </div>
       
     </div>
